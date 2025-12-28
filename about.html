@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | CyberSecure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#0b0f1a;
+      color:#ffffff;
+    }
+
+    /* Header */
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 80px;
+      background:#0e1424;
+    }
+
+    header h1{
+      color:#00e0ff;
+      font-size:26px;
+      font-weight:700;
+    }
+
+    nav a{
+      margin-left:30px;
+      text-decoration:none;
+      color:#ffffff;
+      font-weight:500;
+    }
+
+    nav a:hover{
+      color:#00e0ff;
+    }
+
+    /* About Hero */
+    .about-hero{
+      padding:80px;
+      text-align:center;
+      background:linear-gradient(135deg, #0e1424, #0b0f1a);
+    }
+
+    .about-hero h2{
+      font-size:42px;
+      margin-bottom:15px;
+    }
+
+    .about-hero span{ color:#00e0ff; }
+
+    .about-hero p{
+      max-width:800px;
+      margin:auto;
+      color:#d1d1d1;
+      line-height:1.8;
+    }
+
+    /* About Content */
+    .about-content{
+      padding:80px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:60px;
+      align-items:center;
+    }
+
+    .about-text h3{
+      font-size:32px;
+      margin-bottom:20px;
+    }
+
+    .about-text p{
+      color:#cfcfcf;
+      line-height:1.8;
+      margin-bottom:15px;
+    }
+
+    .about-text ul{
+      list-style:none;
+      margin-top:20px;
+    }
+
+    .about-text ul li{
+      margin-bottom:10px;
+      color:#d1d1d1;
+    }
+
+    .about-img img{
+      width:100%;
+      max-width:420px;
+      display:block;
+      margin:auto;
+      filter:drop-shadow(0 0 25px rgba(0,224,255,0.35));
+    }
+
+    /* Footer */
+    footer{
+      background:#0e1424;
+      text-align:center;
+      padding:20px;
+      font-size:14px;
+      color:#aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CyberSecure</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="servics.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <h2>About <span>CyberSecure</span></h2>
+    <p>
+      CyberSecure is a cyber security focused website created as a university assignment.
+      It represents modern web design and highlights the importance of protecting digital
+      data, networks, and systems.
+    </p>
+  </section>
+
+  <section class="about-content">
+    <div class="about-text">
+      <h3>Who We Are</h3>
+      <p>
+        We focus on spreading awareness about cyber threats and showcasing how cyber
+        security helps protect sensitive information in the digital world.
+      </p>
+      <p>
+        This project is designed using only HTML and CSS to demonstrate clean structure,
+        responsive layout, and professional UI design.
+      </p>
+      <ul>
+        <li>✔ Network Security Awareness</li>
+        <li>✔ Data Protection Concepts</li>
+        <li>✔ Threat Detection Basics</li>
+        <li>✔ Secure Digital Environment</li>
+      </ul>
+      <p style="margin-top:20px; color:#00e0ff;">Designed by: Uzair Abid</p>
+    </div>
+
+    <div class="about-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/4320/4320217.png" alt="Cyber Security About">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CyberSecure | Assignment by Uzair Abid</p>
+  </footer>
+
+</body>
+</html>

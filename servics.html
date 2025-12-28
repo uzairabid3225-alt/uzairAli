@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | CyberSecure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#0b0f1a;
+      color:#ffffff;
+    }
+
+    /* Header */
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 80px;
+      background:#0e1424;
+    }
+
+    header h1{
+      color:#00e0ff;
+      font-size:26px;
+      font-weight:700;
+    }
+
+    nav a{
+      margin-left:30px;
+      text-decoration:none;
+      color:#ffffff;
+      font-weight:500;
+    }
+
+    nav a:hover{ color:#00e0ff; }
+
+    /* Services Hero */
+    .services-hero{
+      padding:80px;
+      text-align:center;
+      background:linear-gradient(135deg, #0e1424, #0b0f1a);
+    }
+
+    .services-hero h2{
+      font-size:42px;
+      margin-bottom:15px;
+    }
+
+    .services-hero span{ color:#00e0ff; }
+
+    .services-hero p{
+      max-width:850px;
+      margin:auto;
+      color:#d1d1d1;
+      line-height:1.8;
+    }
+
+    /* Services Grid */
+    .services{
+      padding:80px;
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:30px;
+    }
+
+    .service-card{
+      background:#0e1424;
+      padding:35px 25px;
+      border-radius:14px;
+      transition:0.3s;
+      text-align:center;
+    }
+
+    .service-card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 0 30px rgba(0,224,255,0.25);
+    }
+
+    .service-card img{
+      width:70px;
+      margin-bottom:20px;
+    }
+
+    .service-card h3{
+      color:#00e0ff;
+      margin-bottom:15px;
+    }
+
+    .service-card p{
+      color:#cfcfcf;
+      font-size:14px;
+      line-height:1.7;
+    }
+
+    /* Footer */
+    footer{
+      background:#0e1424;
+      text-align:center;
+      padding:20px;
+      font-size:14px;
+      color:#aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CyberSecure</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="servics.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="services-hero">
+    <h2>Our <span>Services</span></h2>
+    <p>
+      We provide essential cyber security services that help protect digital systems,
+      networks, and data from modern cyber threats.
+    </p>
+  </section>
+
+  <section class="services">
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" alt="Network Security">
+      <h3>Network Security</h3>
+      <p>
+        Protecting networks from unauthorized access, malware, and cyber attacks using
+        secure protocols and monitoring systems.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="Data Protection">
+      <h3>Data Protection</h3>
+      <p>
+        Ensuring data confidentiality, integrity, and availability through encryption
+        and secure storage techniques.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3208/3208707.png" alt="Threat Analysis">
+      <h3>Threat Analysis</h3>
+      <p>
+        Identifying vulnerabilities and analyzing potential threats to prevent cyber
+        incidents before they occur.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3039/3039387.png" alt="Firewall Security">
+      <h3>Firewall Security</h3>
+      <p>
+        Implementing firewalls to block malicious traffic and ensure secure network
+        communication.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4783/4783520.png" alt="Risk Management">
+      <h3>Risk Management</h3>
+      <p>
+        Assessing risks and applying security strategies to reduce cyber threats and
+        minimize potential damage.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4320/4320217.png" alt="Security Awareness">
+      <h3>Security Awareness</h3>
+      <p>
+        Educating users about cyber threats, safe practices, and awareness to maintain
+        a secure digital environment.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CyberSecure | Assignment by Uzair Abid</p>
+  </footer>
+
+</body>
+</html>
